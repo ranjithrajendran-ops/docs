@@ -113,14 +113,6 @@ For details about the technology stack upgrades, refer to [Technology Stack](/te
         Apply a blur effect to a widget's background image in React Native apps, with an intensity from 0 to 100, without blurring the widget's content.
 
         Set the `backdrop-filter` style property to a blur value, for example `backdrop-filter: blur(10px)`.
-
-      - ### Two-way binding for more form widgets <Pill type="web" />
-
-        Checkbox, Checkbox Set, Switch, Currency, and Radioset widgets in React apps now support two-way binding, matching Angular apps.
-
-      - ### Widget properties aligned with Angular apps <Pill type="web" />
-
-        Width and height, Text, Label, Icon, HTML, Iframe, and Chips widgets in React apps now handle their properties and accessibility attributes the same way as in Angular apps.
     </Accordian>
 
     <Accordian title="Product Ecosystem">
@@ -157,40 +149,14 @@ For details about the technology stack upgrades, refer to [Technology Stack](/te
       - ### PATCH API path parameters missing in variable inputs <Pill type="web" /> <Pill type="angular" />
 
         Fixed path parameters not appearing as inputs in the Data tab of a Web Service variable for an imported PATCH API.
-    </Accordian>
 
-    <Accordian title="Backend">
-      {/* Content */}
-    </Accordian>
+      - ### Two-way binding for more form widgets <Pill type="web" />
 
-    <Accordian title="Platform">
-      - ### Keyboard next action across input fields <Pill type="mobile" />
+        Checkbox, Checkbox Set, Switch, Currency, and Radioset widgets in React apps now support two-way binding, matching Angular apps.
 
-        Fixed the keyboard's next action so users can move to the next input field and keep entering values without dismissing the keyboard.
+      - ### Widget properties aligned with Angular apps <Pill type="web" />
 
-      - ### Date and time picker buttons on Android <Pill type="mobile" />
-
-        Fixed the Select and Cancel buttons on the Date and Time pickers not responding to taps on Android when the widget is used inside a form.
-
-      - ### Canvas elements overflowing with vw and vh <Pill type="mobile" />
-
-        Fixed elements overflowing the mobile canvas, and becoming invisible or untappable, when sized with `vw` and `vh`, which no longer affect the mobile canvas.
-
-      - ### Security updates for lodash and debug <Pill type="mobile" />
-
-        Upgraded the `lodash` library to 4.18.1 and the `debug` library to 4.4.3 in React Native apps to address security vulnerabilities in the earlier versions.
-
-      - ### Validation message layout shift <Pill type="mobile" />
-
-        Fixed an empty validation message container shifting the form layout when a field has validation but no `validationmessage`.
-
-      - ### Form field readonly property <Pill type="mobile" />
-
-        Fixed the Form Field `readonly` property so a read-only field stays non-editable at runtime, regardless of the form's insert or edit mode.
-
-      - ### Bottom sheet detaching on Android <Pill type="mobile" />
-
-        Fixed the bottom sheet detaching from the bottom of the screen on Android, so it stays anchored when the keyboard opens and closes.
+        Width and height, Text, Label, Icon, HTML, Iframe, and Chips widgets in React apps now handle their properties and accessibility attributes the same way as in Angular apps.
 
       - ### Page reloads when a deferred partial loads <Pill type="web" />
 
@@ -287,6 +253,40 @@ For details about the technology stack upgrades, refer to [Technology Stack](/te
       - ### Production app crash on authentication state <Pill type="web" />
 
         Fixed React apps crashing in production builds when a page reads the logged-in user's state.
+    </Accordian>
+
+    <Accordian title="Backend">
+      {/* Content */}
+    </Accordian>
+
+    <Accordian title="Platform">
+      - ### Keyboard next action across input fields <Pill type="mobile" />
+
+        Fixed the keyboard's next action so users can move to the next input field and keep entering values without dismissing the keyboard.
+
+      - ### Date and time picker buttons on Android <Pill type="mobile" />
+
+        Fixed the Select and Cancel buttons on the Date and Time pickers not responding to taps on Android when the widget is used inside a form.
+
+      - ### Canvas elements overflowing with vw and vh <Pill type="mobile" />
+
+        Fixed elements overflowing the mobile canvas, and becoming invisible or untappable, when sized with `vw` and `vh`, which no longer affect the mobile canvas.
+
+      - ### Security updates for lodash and debug <Pill type="mobile" />
+
+        Upgraded the `lodash` library to 4.18.1 and the `debug` library to 4.4.3 in React Native apps to address security vulnerabilities in the earlier versions.
+
+      - ### Validation message layout shift <Pill type="mobile" />
+
+        Fixed an empty validation message container shifting the form layout when a field has validation but no `validationmessage`.
+
+      - ### Form field readonly property <Pill type="mobile" />
+
+        Fixed the Form Field `readonly` property so a read-only field stays non-editable at runtime, regardless of the form's insert or edit mode.
+
+      - ### Bottom sheet detaching on Android <Pill type="mobile" />
+
+        Fixed the bottom sheet detaching from the bottom of the screen on Android, so it stays anchored when the keyboard opens and closes.
     </Accordian>
 
     <Accordian title="Product Ecosystem">
